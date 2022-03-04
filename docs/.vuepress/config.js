@@ -1,11 +1,24 @@
 // .vuepress/config.js
 module.exports = {
-  base:'/wubo-ui',
-    themeConfig: {
-      sidebar: [
-        '/',
-        //主页
-        '/componentDocs/card'
-      ]
-    }
+  title: 'Wubo-ui',
+  base: '/wubo-ui',
+  themeConfig: {
+    nav: [{
+        text: 'Home',
+        link: '/'
+      }, {
+        text: 'Github',
+        link: 'https://github.com/JCUT-WB'
+      },
+      {
+        text: 'Npm',
+        link:'/'
+      }
+    ],
+    sidebar: [
+      '/',
+      //主页
+      '/componentDocs/card'
+    ]
   }
+}

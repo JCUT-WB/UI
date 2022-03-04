@@ -4,7 +4,7 @@
 
 ### 1、安装组件库
 ```bash
-    npm i wubo-ui
+    npm i 2-1.ui
 ```
 ### 2、引用组件库
 ```javascript

@@ -2,7 +2,7 @@
 卡片组件
 
 ### 示例
-<card imgSrc="/img.jpg" summary="test"/>
+<card imgSrc="/wubo-ui/img.jpg" summary="test"/>
 
 ### 代码
 ````html

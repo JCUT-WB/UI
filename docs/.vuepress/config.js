@@ -1,5 +1,6 @@
 // .vuepress/config.js
 module.exports = {
+  base:'/wubo-ui',
     themeConfig: {
       sidebar: [
         '/',

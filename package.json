@@ -19,11 +19,13 @@
     "build:js": "webpack --config ./webpack.components.js",
     "build:css": "npx gulp sass",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "2-1.demo": "^0.1.0",
     "core-js": "^3.6.5",
+    "node": "^12.22.10",
     "sass-loader": "^5.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
